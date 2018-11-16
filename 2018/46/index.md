@@ -32,7 +32,7 @@ Anya, Robert and Michael continued to plough back through the models, tweaking n
 
 ### Strolls
 
-A stroll to the Soho milkshake shop was pencilled in... but, reader, they were [too tired to make it].(https://www.youtube.com/watch?v=-jo3F29JSfs). Better things next week you hope.
+A stroll to the Soho milkshake shop was pencilled in... but, reader, they were [too tired to make it](https://www.youtube.com/watch?v=-jo3F29JSfs). Better things next week you hope.
 
 ### Things that caught our eye
 
