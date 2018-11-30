@@ -1,0 +1,44 @@
+## 2018 Week 48
+
+### Man flu
+
+Your regular correspondent was struck down for the last couple of weeks by a terrible dose of man flu. Which means he's been slightly outside of the loop and isn't entirely sure what's been going on. So this edition may be lacking in both coverage and detail. We can only ever do our best.
+
+### Community
+
+Team:[Samu](https://twitter.com/langsamu) were joined by [Connel Mckeown](https://pure.qub.ac.uk/portal/en/persons/connel-mckeown(d834a936-cb6e-4c84-ba7a-6a1f17714cf9).html), a PhD student from [Queen's University Belfast](https://www.qub.ac.uk/) who's writing his dissertation on the "the implications of open data for government accountability". He'd [got in touch](https://twitter.com/ConnelMckeown/status/1044197277143904257) a while back to see if he could spend a day talking to the team. Last Friday he called by to interview [Chris](https://twitter.com/chrisalcockdev), [Anya](https://twitter.com/bitten_), [Jamie](https://twitter.com/oddtype) and Robert and spend some time talking to the rest of the team. He was lucky enough to call by on a Private Members' Bill day so managed to catch a glimpse of the [Commons' chamber debate on the Parking (Code of Practice) Bill](https://hansard.parliament.uk/Commons/2018-11-23/debates/005F9F65-57E5-4AD0-B6EC-C26C75A7AAA2/Parking(CodeOfPractice)Bill). We hope it was both conversations and debate were riveting and useful.
+
+A couple of weeks back we reported that the [ODI](https://theodi.org/)'s [Leigh Dodds](https://twitter.com/ldodds) had completed his report on how we might model statistics in the data platform and recommended we bin our [stats-series model](https://ukparliament.github.io/ontologies/stats-series/stats-series-ontology.html) and instead use [RDF data cube](https://www.w3.org/TR/vocab-data-cube/). Leigh's come back with permission for us to publish the report so [it's now here on GitHub](https://github.com/ukparliament/Weeknotes/blob/master/external-reports/odi/statistical-data/recommendations.pdf) together with [a zip file of examples](https://github.com/ukparliament/Weeknotes/blob/master/external-reports/odi/statistical-data/data-cube-examples.zip). Hopefully it might be of use to other people.
+
+Chris continued our fruitful collaboration with the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) community via the medium of [Andrew Gray](https://twitter.com/generalising). We now link around 2000 of our Members to their equivalent Wikidata URI and Chris has sent Andrew a spreadsheet of the mappings. Wikidata have an [open proposal for a UK Parliament  identifier property](https://www.wikidata.org/wiki/Wikidata:Property_proposal/UK_Parliament_Identifier) which we're hoping Andrew will be able to start populating once the property is ratified.
+
+### One world, one web, one team
+
+A couple of weeks back House of Commons [Jack](https://twitter.com/jackpdent) made a start on writing short descriptions for the procedures we've modelled so far. Anya, Robert and [Michael](https://twitter.com/fantasticlife) had promised to review and edit but best intentions got interrupted by the man flu outbreak. On Friday afternoon they finally sat down in Michael's office where Robert took out his scalpel and started chopping. The [results so far are in GitHub](https://ukparliament.github.io/ontologies/procedure/procedure-descriptions/) should anybody be interested.
+
+### Domain modelling
+
+Anya and Robert left the library to visit Samu and Chris for further conversations around adding logic gates to the [procedure model](https://ukparliament.github.io/ontologies/procedure/procedure-ontology.html). A saga that's been rumbling on for some weeks. They presented Michael's new option of removing logic gates as a separate thing and instead treating them as a special type of step. Which everyone seemed happy with. Samu had always been keen to replace all of the [route typing](https://ukparliament.github.io/ontologies/procedure/procedure-ontology.html#d4e395) with logic gates. Michael was less convinced. But Samu won as we always knew he would. The new proposal involves treating all routes as causes, using a NOT gate to describe precludes and using a new choice or option or decision step to describe allows. The latter bit being Chris' brainwave. And the naming still to be decided. The published model is now a little out of date and needs a serious prune. But that can wait for next week. In the meantime Chris is experimenting with migrating some of the current data to its new shape. We wait and hope.
+
+Anya and Michael attempted to triage various bits and bobs of documentation around procedural data. At least for now we have the [flowcharts](https://ukparliament.github.io/ontologies/procedure/procedure-ontology.html#flowcharts) which label [steps](https://ukparliament.github.io/ontologies/procedure/procedure-ontology.html#d4e408) in one way, the instance data that labels them another and a spreadsheet that maps between them. Michael made a start on editing the flowcharts to reflect the actual step labels and properly lay things out into appropriate House bubbles. So far he's tinkered with the [draft negative procedure](https://ukparliament.github.io/ontologies/procedure/flowcharts/sis/draft-negative.pdf), the [draft affirmative procedure](https://ukparliament.github.io/ontologies/procedure/flowcharts/sis/draft-affirmative.pdf) and the [proposed negative statutory instrument procedure](https://ukparliament.github.io/ontologies/procedure/flowcharts/proposed-negative-sis/proposed-negative-sis.pdf). But the last two still need a second eye. Elsewhere Anya started to check and tidy the spreadsheet. Chris helped out with a handy [SPARQL](https://en.wikipedia.org/wiki/SPARQL) query to list out current step names and Houses. Lots of changes were made but went missing on their way to the mythical cloud. Because SharePoint syncing is shit. Utter shit.
+
+On Friday morning, Anya, Robert and Michael were happily reunited with House of Lords Jane and House of Commons Jack as they once again dived into the parliamentary procedure for treaties. More whiteboards where filled and the [Constitutional Reform and Governance Act 2010](https://www.legislation.gov.uk/ukpga/2010/25/contents) got consulted but there weren't too many changes from last time. Deferred divisions in the Commons got stripped out, the possibility of Lords debates in Grand Committee got added and assorted arrows were deleted as they came to the conclusion that the Lords has even less say in any of this than they thought it did. The [new flowchart is in the usual GitHub repo](https://github.com/ukparliament/ontologies/blob/master/procedure/flowcharts/logic/treaties.pdf). They're working on the assumption that it's not finished because nothing is ever finished. But, aside from agreeing on better step labels, they think they've taken it about as far as they can take it for now.
+
+### Data platfrom
+
+Wojciech has made a couple of changes to the procedure editor. The first one is fairly minor, allowing us to associate a slug of descriptive text with a procedure. The second one could have more profound implications for the way we manage procedural data. The current model allows a [route](https://ukparliament.github.io/ontologies/procedure/procedure-ontology.html#d4e382) to belong to one and only one procedure. But some routes are common across multiple procedures. The working example is the bunch of routes connecting various steps around English Votes for English Laws (EVEL) certification, all of which happen in all four SI procedures. So Wojciech's now released changes to the procedure editor allowing routes to belong to more than one procedure. Over time we want to identify mini-procedures like EVEL certification and make them one bunch of routes in multiple procedures. This opens up the possibility of not only minimising the number of routes we need but also making procedures more granular and more modular. Which would be super.
+
+### Strolls
+
+Not bloody likely. Atchoo.
+
+### Things that caught our eye
+
+* [Who’s Working for Your Vote?](https://ourdataourselves.tacticaltech.org/posts/whos-working-for-vote/). An investigation into how personal data is used in political campaigns.
+
+### What we're listening to
+
+Anya and Robert took off to the wilds of north London to witness the legend that is [Idris Ackamoor](https://en.wikipedia.org/wiki/Idris_Ackamoor). And his Pyramids. The great man was spotted sauntering through the crowds covered in lamé and bearing what looked to be a didgeridoo. Splendid stuff we're told.
+
+Michael meanwhile has been finding it hard to escape the [Wet Nuns](https://en-gb.facebook.com/wetnuns/). His sickbed echoed to the marvellous sound of [Throttle](https://www.youtube.com/watch?v=bcqk0tEwGjw). He could listen but not look.
+
