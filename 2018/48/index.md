@@ -14,7 +14,7 @@ Chris continued our fruitful collaboration with the [Wikidata](https://www.wikid
 
 ### One world, one web, one team
 
-A couple of weeks back House of Commons [Jack](https://twitter.com/jackpdent) sent us some short descriptions he'd written for the procedures we've modelled so far. Anya, Robert and [Michael](https://twitter.com/fantasticlife) had promised to review and edit but their best intentions were laid waste by the man flu outbreak. On Friday afternoon they finally sat down in Michael's office where Robert took out his scalpel and started chopping. The [finely sculpted results](https://ukparliament.github.io/ontologies/procedure/procedure-descriptions/) are in GitHub.
+In the golden days, before man flu struck, House of Commons [Jack](https://twitter.com/jackpdent) sent us some short descriptions he'd written for the procedures we've modelled so far. Anya, Robert and [Michael](https://twitter.com/fantasticlife) had promised to review and edit but their best intentions were laid waste by the man flu outbreak. On Friday afternoon they finally sat down in Michael's office where Robert took out his scalpel and started chopping. The [finely sculpted results](https://ukparliament.github.io/ontologies/procedure/procedure-descriptions/) are in GitHub.
 
 ### Domain modelling
 
