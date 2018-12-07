@@ -40,7 +40,7 @@ Not likely. It's impossible to stroll on your back.
 
 * Anya came across this piece on [being a woman in blockchain](https://breakermag.com/trapped-at-sea-with-cryptos-nouveau-riche/). It's "like riding a bicycle. Except the bicycle is on fire. And everything is on fire. And you are going to hell," we're told. Samu would like to add that this is the major bullshit of our times: AI, blockchain and [quantum computing](https://spectrum.ieee.org/tech-talk/computing/hardware/the-us-national-academies-reports-on-the-prospects-for-quantum-computing). Which reminds him of the other bullshit trinity: product management, user research and service design. He then goes on to compile a trinity of bullshit trinities and includes agile, CD and TDD. He then apologies for his rant.
 
-* Samu spotted this piece on [the friendship that made Google huge](https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge). "To solve problems at scale, paradoxically, you have to know the smallest details,” Eustace said. Jeff and Sanjay understood computers at the level of bits."
+* Samu spotted this piece on [the friendship that made Google huge](https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge). "To solve problems at scale, paradoxically, you have to know the smallest details. Jeff and Sanjay understood computers at the level of bits."
 
 ### What we're listening to
 
