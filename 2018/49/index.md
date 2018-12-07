@@ -2,7 +2,7 @@
 
 ### Man flu (slight return)
 
-After what seemed like recovery, man flu returned with a vengeance and another day in bed beckoned for your regular correspondent. Although, this may not have been helped by beer. [Michael](https://twitter.com/fantasticlife) is thankfully [fit and working again](https://www.youtube.com/watch?v=QnxZkK4mdM8). At least until the next pub exerts its charms. Never drink with librarians is a lesson he finds hard to learn.
+After what felt at first like recovery, man flu returned with a vengeance and another day in bed beckoned for your regular correspondent. Although, this may not have been helped by beer. [Michael](https://twitter.com/fantasticlife) is thankfully [fit and working again](https://www.youtube.com/watch?v=QnxZkK4mdM8). At least until the next pub exerts its charms. Never drink with librarians is a lesson he finds hard to learn.
 
 ### Community
 
@@ -12,7 +12,7 @@ After what seemed like recovery, man flu returned with a vengeance and another d
 
 ### One world, one web, one team
 
-[Anya](https://twitter.com/bitten_), Robert and Michael met with [James](https://twitter.com/TheVinternets) and Simon from the committee website "product" team. They chatted about domain models and the expression thereof. Michael made his usual point that beauty lives in bone structure. And not in the over rigorous application of Max Factor lippy. Let the bones of the model show through in the view. As a [great man](https://en.wikipedia.org/wiki/Eric_J._Evans) once said.
+[Anya](https://twitter.com/bitten_), Robert and Michael met with [James](https://twitter.com/TheVinternets) and Simon from the committee website "product" team. They chatted about domain models and the expression thereof. Michael made his usual point that beauty lives in bone structure. And not in the overly enthusiastic application of Max Factor lippy. Let the bones of the model show through in the view. As a [great man](https://en.wikipedia.org/wiki/Eric_J._Evans) once said.
 
 James drifted back to Tothill Street, this time in the company of House of Commons James and House of Lords Ed. They met with Anya, Robert and Michael to chat about the URIs we'll need to slice and dice committees by House, type, scrutiny area and currency. They think they got most of the way there but the conversation got dragged into deeper weeds about URI structure of subclasses and when to make links and when to not make links. Always, said Robert and Michael. You always make links. Or you work on something that isn't the web.
 
@@ -26,11 +26,15 @@ Robert and Michael sat down to redraw and retype the [procedure model](https://u
 
 ### Data platform
 
-In the course of writing his post, Michael found the [procedure visualisations](https://procedures.azurewebsites.net/Procedures/3/graph) were no longer working. Samu suspected this might have been a side effect of [making routes many-to-many with procedures](https://ukparliament.github.io/Weeknotes/2018/48/#data-platfrom). Wojciech stepped in and fixed things within minutes. Thanks Wojciech.
+In the course of writing his post, Michael found the [procedure visualisations](https://procedures.azurewebsites.net/Procedures/3/graph) were no longer working. [Samu](https://twitter.com/langsamu) suspected this might have been a side effect of [making routes many-to-many with procedures](https://ukparliament.github.io/Weeknotes/2018/48/#data-platfrom). Wojciech stepped in and fixed things within minutes. Thanks Wojciech.
 
 [Jianhan](https://twitter.com/jianhanzhu) continued in his efforts to investigate the data coming out of the new Committee Information System, in preparation for future orchestration efforts. It's a little like painting your front room by sticking a paint brush through the letterbox. But we do what we can.
 
 [Matthieu](https://twitter.com/cognithive)'s been beavering away to improve our version of [VocBench](http://vocbench.uniroma2.it/) making Java memory management tweaks and working with librarian [Liz](https://twitter.com/greensideknits) on general improvements to the shape of the [vocabulary](http://www.data.parliament.uk/dataset/thesauri). Usman lent a hand so [the whole thing is even starting to look good](https://skosbrowser.azurewebsites.net/schemes).
+
+### Search (and indeed indexing)
+
+Poor Mike's been peering deep into computers in the hope, if not expectation, of fixing a problem with new files not making it to the search and indexing triplestore. Which in turn meant they weren't showing up in [parliamentary search](http://search-material.parliament.uk/). We experienced a similar foobar last week when the service that updates the text file that records the last time of ingest accidentally lost its permissions to update the file. We rely on this file to tell us when changes occur and without it we'd be updating everything from the database every minute. Which would make the database very tired. For a short while Mike assumed that this week's collapse might be a repeat of last week's collapse but after poking around the server and hitting it with a spanner, the problem persisted. Collaboration was clearly called for so Samu, Wojciech, [Alex](https://twitter.com/AlexEdwardH), Kunal, Mike and their collection of precision spanners formed like Voltron and got down to some serious software craftsmanship. It turned out the problem originated in API of the new [EDM](https://en.wikipedia.org/wiki/Early_day_motion) service which, due to some copy and paste error, was sending a timestamp as a boolean and a boolean as a timestamp. Team:Samu disabled their API ingest, deleted the data in question and set back the last run time to before the incident. So parliamentary search is once more receiving new content. The team responsible for the API have been prodded and are working on a fix. If all goes to plan and they hit enough computers with enough spanners, we should have new EDMs back in parliamentary search shortly.
 
 ### Employee of the week....
 
