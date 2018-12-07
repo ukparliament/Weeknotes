@@ -30,7 +30,7 @@ In the course of writing his post, Michael found the [procedure visualisations](
 
 [Jianhan](https://twitter.com/jianhanzhu) continued in his efforts to investigate the data coming out of the new Committee Information System, in preparation for future orchestration efforts. It's a little like painting your front room by sticking a paint brush through the letterbox. But we do what we can.
 
-[Matthieu](https://twitter.com/cognithive)'s been beavering away to improve our version of [VocBench](http://vocbench.uniroma2.it/) making Java memory management tweaks and working with librarian [Liz](https://twitter.com/greensideknits) on general improvements to the shape of the [vocabulary](http://www.data.parliament.uk/dataset/thesauri). Usman lent a hand so [the whole thing is even starting to look good](https://skosbrowser.azurewebsites.net/schemes).
+[Matthieu](https://twitter.com/cognithive)'s been beavering away to improve our version of [VocBench](http://vocbench.uniroma2.it/) making Java memory management tweaks and generally speeding things up. He's also been tinkering with Samu's concept lookup tool and working with librarian [Liz](https://twitter.com/greensideknits) on general improvements to the shape of the [vocabulary](http://www.data.parliament.uk/dataset/thesauri). Usman lent a hand so [the whole thing is even starting to look good](https://skosbrowser.azurewebsites.net/schemes).
 
 ### Search (and indeed indexing)
 
