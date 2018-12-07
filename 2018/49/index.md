@@ -2,11 +2,13 @@
 
 ### Man flu (slight return)
 
-After what seemed like recovery, man flu returned with some vengeance and another day in bed beckoned for your regular correspondent. Although, this may not have been helped by beer. [Michael](https://twitter.com/fantasticlife) is thankfully [fit and working again](https://www.youtube.com/watch?v=QnxZkK4mdM8). At least until the next pub exerts its charms. Never drink with librarians is a lesson he finds hard to learn.
+After what seemed like recovery, man flu returned with a vengeance and another day in bed beckoned for your regular correspondent. Although, this may not have been helped by beer. [Michael](https://twitter.com/fantasticlife) is thankfully [fit and working again](https://www.youtube.com/watch?v=QnxZkK4mdM8). At least until the next pub exerts its charms. Never drink with librarians is a lesson he finds hard to learn.
 
 ### Community
 
 [Our Dan](https://twitter.com/dasbarrett) finally fulfilled his dream of an overseas business trip. [Here he is](https://twitter.com/dasbarrett/status/1069529380366548993) at the [Inter-Parliamentary Union](https://twitter.com/IPUparliament) e-Parliament conference. See how smart he looks in his tie and his jacket and his gansey. His mam must be well proud.
+
+[Chris](https://twitter.com/chrisalcockdev) and [Andrew](https://twitter.com/generalising) pulled off a one web win. As of this week, we not only have links to Wikidata from our data platform, Wikidata now has a [property to link to us](https://www.wikidata.org/wiki/Property:P6213). Unlike the old biography page property, P6213 can identify anything in the data platform from Members to constituencies to parties to [parliament periods](https://ukparliament.github.io/ontologies/time-period/time-period-ontology.html#d4e487) to committees to procedures. Anything and everything really. P6213, you are native to a web of data and we love you.
 
 ### One world, one web, one team
 
@@ -25,6 +27,10 @@ Robert and Michael sat down to redraw and retype the [procedure model](https://u
 ### Data platform
 
 In the course of writing his post, Michael found the [procedure visualisations](https://procedures.azurewebsites.net/Procedures/3/graph) were no longer working. Samu suspected this might have been a side effect of [making routes many-to-many with procedures](https://ukparliament.github.io/Weeknotes/2018/48/#data-platfrom). Wojciech stepped in and fixed things within minutes. Thanks Wojciech.
+
+[Jianhan](https://twitter.com/jianhanzhu) continued in his efforts to investigate the data coming out of the new Committee Information System, in preparation for future orchestration efforts. It's a little like painting your front room by sticking a paint brush through the letterbox. But we do what we can.
+
+[Matthieu](https://twitter.com/cognithive)'s been beavering away to improve our version of [VocBench](http://vocbench.uniroma2.it/) making Java memory management tweaks and working with librarian [Liz](https://twitter.com/greensideknits) on general improvements to the shape of the [vocabulary](http://www.data.parliament.uk/dataset/thesauri). Usman lent a hand so [the whole thing is even starting to look good](https://skosbrowser.azurewebsites.net/schemes).
 
 ### Employee of the week....
 
