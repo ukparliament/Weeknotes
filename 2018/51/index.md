@@ -62,7 +62,7 @@ It's built on our standard technology stack and makes use of:
 
 It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego bricks got deployed, building standards compliant, accessible applications was becoming more and more like intelligently assembling strong blocks of technology. And every new project benefited from updates on our stack.
 
-Liz and Matthieu gave a brief tour to librarian Phil and his team who were pleased to see the vocabulary available in an accessible and good looking UI. And the adoption of SKOS seems like a good thing to everyone with a bit of subject matter expertise in knowledge management.
+Liz and Matthieu gave a brief tour to [librarian Phil](https://twitter.com/philbgorman) and his team who were pleased to see the vocabulary available in an accessible and good looking UI. And the adoption of SKOS seems like a good thing to everyone with a bit of subject matter expertise in knowledge management.
 
 It's also lending a helpful hand with improving our vocabulary, as Matthieu and Liz collaborate on tidying and pruning the hierarchy.
 
