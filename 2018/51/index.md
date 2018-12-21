@@ -2,7 +2,7 @@
 
 ### The end of an era
 
-On Friday it was announced that further development on the data platform will come to a halt in the new year. So this is the last missive from you parliamentary data mouses. We've had a decent run. And, I think, spent three years doing some of the best work in the public sector. There is a good deal to be proud of and some regret we can't continue.
+On Friday it was announced that further development on the data platform will come to a halt in the new year. So this is the last missive from your parliamentary data mouses. We've had a decent run. And, I think, spent three years doing some of the best work in the public sector. There is a good deal to be proud of and some regret we can't continue.
 
 ### Use hypertext to subvert hierarchies
 
