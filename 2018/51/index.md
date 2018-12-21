@@ -24,7 +24,7 @@ On Tuesday, Anya, Robert and Michael popped across St James's Park to Lego castl
 
 ### Data platform
 
-Following on from [Chris' monster query last week](https://ukparliament.github.io/Weeknotes/2018/50/#employee-of-the-week), Samu made us a [sweet little URL shortener](https://api.parliament.uk/s). So the work of Chris' SPARQL spanner can now be invoked by [https://api.parliament.uk/s/b89efe80](https://api.parliament.uk/s/b89efe80) and Samu's epic procedure schema visualisation query as [https://api.parliament.uk/s/e756472e](https://api.parliament.uk/s/e756472e). Like much else, the shortener uses [Pugin](https://github.com/ukparliament/parliament.uk-pugin), the marvellous beta front end courtesy of [Usman](https://twitter.com/_usmanafzal).
+Following on from [Chris' monster query last week](https://ukparliament.github.io/Weeknotes/2018/50/#employee-of-the-week), Samu made us a [sweet little URL shortener](https://api.parliament.uk/s). So the work of Chris' SPARQL spanner can now be invoked by [api.parliament.uk/s/b89efe80](https://api.parliament.uk/s/b89efe80) and Samu's epic procedure schema visualisation query as [api.parliament.uk/s/e756472e](https://api.parliament.uk/s/e756472e). Like much else, the shortener uses [Pugin](https://github.com/ukparliament/parliament.uk-pugin), the marvellous beta front end courtesy of [Usman](https://twitter.com/_usmanafzal).
 
 Whilst releasing the URL shortener, Samu took the opportunity to update the search service to also use Pugin. Which is [here for your delectation](https://api.parliament.uk/search/query?q=accessible+search).
 
@@ -38,13 +38,13 @@ On a final search related note, Alex departed last week, but not before gifting 
 
 ### On topics. And taggings
 
-Team:Samu have also been busy building a [vocabulary browser](https://api.parliament.uk/vocabulary/browser) for use by the Indexing and Data Management Section of the House of Commons Library. And beyond. It's been another collaborative effort with our Matthieu working closely with librarian Liz.
+Team:Samu have also been busy building a [vocabulary browser](https://api.parliament.uk/vocabulary/browser) for use by the Indexing and Data Management Section of the House of Commons Library. And beyond. It's been another collaborative effort with our Matthieu working closely with [librarian Liz](https://twitter.com/greensideknits).
 
-IDMS do sterling work subject indexing parliamentary material and tying together disjointed data. But to date the output of that work has only been half visible behind a search form. And not visible to the wider web. We also published the thesauri on data.parliament, but given that was just a list of subject heading and carried no indexed content, it was less that useful.
+IDMS do sterling work subject indexing parliamentary material and tying together disjointed data. But to date the output of that work has only been half visible behind a [search form](http://search-material.parliament.uk/). And not visible to the wider web. We also [published the thesauri on data.parliament](http://www.data.parliament.uk/dataset/thesauri), but given that was just a list of subject heading and carried no indexed content, it was less that useful.
 
-The new browser spans across the data platform triple store and SOLR - where the subject indexings live - so you can now browse parliamentary material by subject heading in a way that's never been possible before. For those interested in approaching Parliament by topic, rather than by business or document type, it's probably a better bet the website.
+The new browser spans across the data platform triple store and [SOLR](http://lucene.apache.org/solr/) - where the subject indexings live - so you can now browse parliamentary material by subject heading in a way that's never been possible before. For those interested in approaching Parliament by topic, rather than by business or document type, it's probably a better bet the website.
 
-The vocabulary browser is based on a lot of thinking and a lot of work over a lot of time. Matthieu has been beavering away on exporting our existing vocabulary, converting it to [SKOS](https://www.w3.org/TR/skos-primer/), importing it into a triple store and making the whole thing queryable by SPARQL. We think it's not too off being able to replace search material and in time could replace the internal only parliamentary search. And it could totally provide the backbone for topic pages on beta. Take a look at what's been [subject indexed under Brexit and we think you'll get our drift](https://api.parliament.uk/s/87ba085c).
+The vocabulary browser is based on a lot of thinking and a lot of work over a lot of time. Matthieu has been beavering away on exporting our existing vocabulary, converting it to [SKOS](https://www.w3.org/TR/skos-primer/), importing it into a triple store and making the whole thing queryable by SPARQL. We think it's not too off being able to replace [search material](http://search-material.parliament.uk/) and in time could replace the internal only parliamentary search. And it could totally provide the backbone for topic pages on beta. Take a look at what's been [subject indexed under Brexit and we think you'll get our drift](https://api.parliament.uk/s/87ba085c).
 
 It's built on our standard technology stack and makes use of:
 
@@ -60,13 +60,13 @@ It's built on our standard technology stack and makes use of:
 
 * A simple [Lucene](http://lucene.apache.org/) connector for search.
 
-It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego block get deployed, building standards compliant, accessible applications is becoming more and more like intelligently assembling strong blocks of technology. And every new project benefits from updates on our stack.
+It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego bricks get deployed, building standards compliant, accessible applications was becoming more and more like intelligently assembling strong blocks of technology. And every new project benefited from updates on our stack.
 
 Liz and Matthieu gave a brief tour to librarian Phil and his team who were pleased to see the vocabulary available in an accessible and good looking UI. And the adoption of SKOS seems like a good thing to everyone with a bit of subject matter expertise in knowledge management.
 
-It's also proving to provide a helpful hand with improving our vocabulary, as Matthieu and Liz @greensideknits collaborate on tidying and pruning the hierarchy.
+It's also lending a helpful hand with improving our vocabulary, as Matthieu and Liz collaborate on tidying and pruning the hierarchy.
 
-Every week, more brilliant work when librarians meet team:Samu.
+Every week, more brilliant work when librarians met team:Samu.
 
 ### Were new facts uncovered?
 
