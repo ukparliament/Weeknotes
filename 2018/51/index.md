@@ -60,7 +60,7 @@ It's built on our standard technology stack and makes use of:
 
 * A simple [Lucene](http://lucene.apache.org/) connector for search.
 
-It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego bricks get deployed, building standards compliant, accessible applications was becoming more and more like intelligently assembling strong blocks of technology. And every new project benefited from updates on our stack.
+It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego bricks got deployed, building standards compliant, accessible applications was becoming more and more like intelligently assembling strong blocks of technology. And every new project benefited from updates on our stack.
 
 Liz and Matthieu gave a brief tour to librarian Phil and his team who were pleased to see the vocabulary available in an accessible and good looking UI. And the adoption of SKOS seems like a good thing to everyone with a bit of subject matter expertise in knowledge management.
 
