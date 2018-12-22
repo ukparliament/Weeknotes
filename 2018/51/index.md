@@ -40,7 +40,7 @@ On a final search related note, Alex departed last week, but not before gifting 
 
 Team:Samu have also been busy building a [vocabulary browser](https://api.parliament.uk/vocabulary/browser) for use by the Indexing and Data Management Section of the House of Commons Library. And beyond. It's been another collaborative effort with our Matthieu working closely with [librarian Liz](https://twitter.com/greensideknits).
 
-IDMS do sterling work subject indexing parliamentary material and tying together disjointed data. But to date the output of that work has only been half visible behind a [search form](http://search-material.parliament.uk/). And not visible to the wider web. We also [published the thesauri on data.parliament](http://www.data.parliament.uk/dataset/thesauri), but given that was just a list of subject headings and carried no indexed content, it was less that useful.
+IDMS do sterling work subject indexing parliamentary material and tying together disjointed data. But to date the output of that work has only been half visible behind a [search form](http://search-material.parliament.uk/). And not visible to the wider web. We also [published the thesauri on data.parliament](http://www.data.parliament.uk/dataset/thesauri), but given that was just a list of subject headings and carried no indexed content, it was less than useful.
 
 The new browser spans across the data platform triple store and [SOLR](http://lucene.apache.org/solr/) - where the subject indexings live - so you can now browse parliamentary material by subject heading in a way that's never been possible before. For those interested in approaching Parliament by topic, rather than by business or document type, it's probably a better bet than the website.
 
