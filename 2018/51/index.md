@@ -2,7 +2,7 @@
 
 ### The end of an era
 
-On Friday it was announced that further development on the data platform will come to a halt in the new year. So this is the last missive from your parliamentary data mouses. We've had a decent run. And, I think, spent three years doing some of the best work in the public sector. There is a good deal to be proud of and regret we can't continue.
+On Friday it was announced that further development on the data platform will come to a halt in the new year. So this is the last missive from your parliamentary data mouses. We've had a decent run. And, I think, spent three years doing some of the best work in the public sector. There is a good deal to be proud of, and regret that we can't continue.
 
 ### Use hypertext to subvert hierarchies
 
@@ -48,17 +48,17 @@ The vocabulary browser is based on a lot of thinking and a lot of work over a lo
 
 It's built on our standard technology stack and makes use of:
 
-* GraphDB, a standard compliant graph database engine supporting [OWL inferencing](https://www.w3.org/standards/semanticweb/inference) and [SPARQL querying](https://www.w3.org/TR/sparql11-query/).
+* GraphDB, a standard compliant graph database engine supporting [OWL inferencing](https://www.w3.org/standards/semanticweb/inference) and [SPARQL querying](https://www.w3.org/TR/sparql11-query/)
 
-* A standard ontology  for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, taxonomies and other similar types of controlled vocabulary in the shape of SKOS.
+* a standard ontology  for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, taxonomies and other similar types of controlled vocabulary in the shape of SKOS
 
-* Samu's Dynamic graph implementation which he contributed as an extension to the [dotNet RDF library](https://github.com/langsamu/dotNetRDF.Dynamic).
+* Samu's Dynamic graph implementation which he contributed as an extension to the [dotNet RDF library](https://github.com/langsamu/dotNetRDF.Dynamic)
 
-* A standard, containerised .NET Core web application with fully automated deployment.
+* a standard, containerised .NET Core web application with fully automated deployment
 
-* Another outing for Usman's Pugin framework.
+* another outing for Usman's Pugin framework
 
-* A simple [Lucene](http://lucene.apache.org/) connector for search.
+* a simple [Lucene](http://lucene.apache.org/) connector for search
 
 It's another clarion call for the benefits of having a team dedicated to working in the open and working with open standards. And long may that continue. As the Lego bricks were deployed, building standards compliant, accessible applications became more and more like intelligently assembling strong blocks of technology. And every new project benefited from updates to our stack. Though obviously that was last week. In a world with no data platform development, we're less certain how this work continues to be supported.
 
