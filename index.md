@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## UK Parliament data and search weeknotes
 
 * [2018 week 41](2018/41)
@@ -61,3 +62,11 @@
 * [Week 3: 11-08-2017](3)
 * [Week 2: 04-08-2017](2)
 * [Week 1: 28-07-2017](1)
+=======
+# Weeknotes
+
+* [2018](2018)
+
+
+[Previously here](https://ukparliament.github.io/weeknotes.data-search/)
+>>>>>>> eea01e9735f42de3d8c3363d595e6cb32533b21e
