@@ -8,7 +8,7 @@ They chatted website progress, technology in general, cloud adoption in particul
 
 Jamie would like it to be known he found Alex’s comments and questions inspiring. Particularly around how the Libraries act as an institutional memory for the state (and not just our own Members). Basically because information management in government departments might be best described as broke. Alex also endorsed our new 'purple' unified search. He commented on how the simple interface felt familiar. His views on the purple are not recorded.
 
-We don't learn from Slack if all Alex's questions were answered to everyone's satisfaction. We do learn they [ended up in the pub](https://twitter.com/dasbarrett/status/1024711616040972288). And what question has never been successfully answered in a pub?
+We don't learn from Slack if all Alex's questions were answered to everyone's satisfaction. We do learn they [ended up in the pub](https://twitter.com/dasbarrett/status/1024711616040972288). And what question has never been successfully answered in a pub? None
 
 ### Is Samu morality?
 
